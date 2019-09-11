@@ -1,6 +1,8 @@
 .shop-meta{
   div{
-    display: inline-block;
+    @media screen and (min-width: 48rem){
+      display: inline-block;
+    }
   }
 
   a{
@@ -13,11 +15,19 @@
 }
 
 .tel{
-  display: inline-block;
-  margin-left: 1rem;
+  display: block;
+
+  @media screen and (min-width: 48rem){
+    display: inline-block;
+    margin-left: 1rem;
+  }
 }
 
 .email{
-  display: inline-block;
-  margin-left: 1rem;
+  display: block;
+
+  @media screen and (min-width: 48rem){
+    display: inline-block;
+    margin-left: 1rem;
+  }
 }

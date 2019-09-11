@@ -1,0 +1,18 @@
+.site-header{
+  background-color: rgba($background-color, .95);
+
+  .container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.brand{
+  display: inline-block;
+  padding: 1rem;
+  background-color: $black;
+  color: $light-gold;
+  font-family: 'Grumpy 88';
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}

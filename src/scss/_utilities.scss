@@ -1,0 +1,47 @@
+
+/*mixins*/
+
+@mixin unstyled-list(){
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin flex-video() {
+  position: relative;
+  padding-top: 1.5625rem;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 1rem;
+  overflow: hidden;
+
+  iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@mixin  flex-list(){
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin responsive-img(){
+  max-width: 100%;
+  height: auto;
+}
+
+
+@mixin hidden(){
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.explanation{
+  margin-top: 0;
+  font-style: italic;
+  font-size: 90%;
+}

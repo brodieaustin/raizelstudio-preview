@@ -1,0 +1,23 @@
+.shop-meta{
+  div{
+    display: inline-block;
+  }
+
+  a{
+    color: $light-gold;
+  }
+
+  .name{
+    @include hidden;
+  }
+}
+
+.tel{
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.email{
+  display: inline-block;
+  margin-left: 1rem;
+}

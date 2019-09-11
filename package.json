@@ -1,0 +1,18 @@
+{
+  "name": "raizelstudios",
+  "version": "1.0.0",
+  "description": "Page for Raizel Studios.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brodie Austin",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.2",
+    "scss-resets": "^0.4.0"
+  }
+}

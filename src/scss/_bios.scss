@@ -1,0 +1,62 @@
+.bios-section{
+  background-color: $secondary-background-color;
+
+  .container{
+    padding: 4rem;
+
+    @media screen and (min-width: 45rem){
+      padding: 8rem;
+    }
+  }
+}
+
+.bios{
+  @include unstyled-list;
+}
+
+.bio{
+  margin-bottom: 4rem;
+
+  @media screen and (min-width: 45rem){
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.bio-headshot{
+  margin: 0;
+  text-align: center;
+
+  @media screen and (min-width: 45rem){
+    width: 25%;
+    text-align: left;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+.bio-details{
+
+  @media screen and (min-width: 45rem){
+    width: 65%;
+  }
+
+  h2{
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  p{
+    color: $grey;
+  }
+}

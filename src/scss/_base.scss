@@ -1,0 +1,53 @@
+/* base */
+
+@font-face {
+  font-family: 'Grumpy 88';
+  src: url('../fonts/subset-Grumpy-Black88.woff2') format('woff2'),
+      url('../fonts/subset-Grumpy-Black88.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: $background-color url('../img/watercolor-floral-background.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font: 300 16px/1.5 $primary-font-family;
+  color: $font-color;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin-top: 0;
+  line-height: 1.1;
+  font-weight: 700;
+  color: $header-color;
+}
+
+h2{
+  font-size: .875rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+a{
+  color: $link-color;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity .2s ease;
+
+  &:hover{
+    opacity: .7;
+  }
+
+}

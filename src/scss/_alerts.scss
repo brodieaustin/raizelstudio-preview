@@ -1,0 +1,20 @@
+.alert{
+  margin-top: -2rem;
+  background-color: $dark-green;
+  text-align: center;
+
+  .button.small{
+    margin-left: 1rem;
+    padding: .5rem;
+    background-color: $green;
+    color: #fff !important;
+    font-size: .75rem;
+
+    @media screen and (max-width: 45rem){
+      display: block;
+      max-width: 50%;
+      margin: 2rem auto 0;
+
+    }
+  }
+}

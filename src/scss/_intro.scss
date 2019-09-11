@@ -1,18 +1,18 @@
 .intro-section{
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
   background-color: rgba($background-color, .95);
 
-  @media screen and (min-width: 45rem){
+  @media screen and (min-width: 48rem){
     padding-top: 4rem;
     padding-bottom: 8rem;
   }
 
   p{
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
-    @media screen and (min-width: 45rem){
+    @media screen and (min-width: 48rem){
       font-size: 2rem;
     }
   }

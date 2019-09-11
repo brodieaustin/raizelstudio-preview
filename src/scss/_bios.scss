@@ -4,7 +4,7 @@
   .container{
     padding: 4rem;
 
-    @media screen and (min-width: 45rem){
+    @media screen and (min-width: 48rem){
       padding: 8rem;
     }
   }
@@ -17,7 +17,7 @@
 .bio{
   margin-bottom: 4rem;
 
-  @media screen and (min-width: 45rem){
+  @media screen and (min-width: 48rem){
     display: flex;
     flex-wrap: wrap;
   }
@@ -31,8 +31,9 @@
   margin: 0;
   text-align: center;
 
-  @media screen and (min-width: 45rem){
+  @media screen and (min-width: 48rem){
     width: 25%;
+    padding-right: 1rem;
     text-align: left;
   }
 
@@ -44,9 +45,11 @@
 }
 
 .bio-details{
+  text-align: center;
 
-  @media screen and (min-width: 45rem){
+  @media screen and (min-width: 48rem){
     width: 65%;
+    text-align: left;
   }
 
   h2{

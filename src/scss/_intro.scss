@@ -1,7 +1,7 @@
 .intro-section{
   padding-top: 2rem;
   padding-bottom: 4rem;
-  background-color: rgba($background-color, .95);
+  background-color: rgba($background-color, .9);
 
   @media screen and (min-width: 48rem){
     padding-top: 4rem;
@@ -23,7 +23,7 @@
     color: $font-color;
     letter-spacing: .5px;
     white-space:  nowrap;
-    background-color: #fff;
+    background-color: rgba(#fff, .9);
   }
 }
 
